@@ -1,0 +1,1 @@
+setfc 255 0 0 fd 60 rt 72 fd 60 rt 72 fd 60 rt 72 fd 60 rt 72 fd 60 lt 36 fd 60 rt 72 fd 60 rt 72 fd 60 rt 72 fd 60

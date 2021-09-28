@@ -1,0 +1,1 @@
+setsc 0 255 0 repeat 6 [fd 100 rt 60 ] 

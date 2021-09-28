@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="459.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unicam.pa2021.filippolampa.view.DialogController">
+   <children>
+      <Label layoutX="42.0" layoutY="300.0" text="File -&gt; New sheet">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="236.0" layoutY="147.0" text="SETPENCOLOR &quot;setpc&quot;, &quot;setpencolor&quot;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="120.0" text="BACK &quot;back&quot;, &quot;bk&quot; ">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="168.0" layoutY="24.0" text="Available commands ">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeButton" layoutX="221.0" layoutY="420.0" mnemonicParsing="false" onAction="#handleClose" text="Close" />
+      <Label layoutX="28.0" layoutY="70.0" text="FORWARD &quot;forward&quot;, &quot;fd&quot;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="200.0" text="RIGHT &quot;right&quot;, &quot;rt&quot;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="147.0" text="LEFT &quot;left&quot;, &quot;lt&quot;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="95.0" prefHeight="17.0" prefWidth="151.0" text="CLEARSCREEN &quot;clean&quot;, &quot;cs&quot; ">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="237.0" layoutY="70.0" text="HOME  &quot;home&quot;PENUP  &quot;penup&quot;, &quot;pu&quot;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="224.0" text="PENDOWN &quot;pendown&quot;, &quot;pd&quot; ">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="236.0" layoutY="120.0" text="SETPENSIZE &quot;setps&quot;, &quot;setpensize&quot; ">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="174.0" text="SETFILLCOLOR &quot;setfc&quot;, &quot;setfillcolor&quot;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="235.0" layoutY="174.0" text="SETSCREENCOLOR  &quot;setsc&quot;, &quot;setscreencolor&quot;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="236.0" layoutY="95.0" text="REPEAT &quot;repeat&quot;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="300.0" text="1)">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="259.0" text="Instructions">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="328.0" text="2)">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="328.0" text="Select file">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="183.0" layoutY="300.0" text="3)">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="300.0" text="Select step by step mode if needed">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="181.0" layoutY="328.0" text="4)">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="328.0" text="Start program execution">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,1 @@
+bk 100 lt 90 setpc 0 0 255 setpensize 4 fd 100 rt 90 penup fd 200 pendown setpc 0 0 0 setpensize 1 rt 90 fd 100 home
